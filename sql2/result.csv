@@ -1,0 +1,14 @@
+ order_date | name |  name  | quantity 
+------------+------+--------+----------
+ 2015-09-05 | 太郎 | ばなな |       10
+(1 row order_date | name |  name  | quantity 
+------------+------+--------+----------
+ 2015-09-05 | 太郎 | ばなな |       10
+(1 row)
+
+order_date|name|name|quantity
+2015-09-05|太郎|ばなな|10
+(1 row)
+order_date,name,name,quantity
+2015-09-05,太郎,ばなな,10
+(1 row)
