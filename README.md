@@ -4,14 +4,20 @@
 -- psqlのvesionを確認する
 psql --version
 
+-- データベース一覧表示
+psql -l
+
 -- スーパーユーザーとしてPostgreSQLにログイン
 sudo -u postgres psql
 
 -- 新しいユーザーを作成
 CREATE USER new_user WITH PASSWORD 'password';
 
--- データベースを作成
+-- データベースを作成1
 CREATE DATABASE new_database;
+
+-- データベースを作成1
+createdb "your name"
 
 -- ユーザーにデータベースへの全権限を付与
 GRANT ALL PRIVILEGES ON DATABASE new_database TO new_user;
